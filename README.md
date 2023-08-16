@@ -1,3 +1,4 @@
+
 # EBAC Fullstack Java
 
 # MÓDULO 1 - INTRODUÇÃO AO FRONTEND
@@ -16,6 +17,7 @@
 - Deverá disponibilizar o link do repositório no portal do aluno	
 
 <a href="https://github.com/vivianezzt/FullStack_java/blob/exercicio_git/nome.txt">Exercicio finalizado</a>
+
 
 # MÓDULO 3 - HTML
 
@@ -69,4 +71,4 @@ destes fatores.
 <a href="https://github.com/vivianezzt/FullStack_java/tree/exercicio_html_js/integrando_html_js">Exercicio Finalizado</a>
 
 
-  
+
