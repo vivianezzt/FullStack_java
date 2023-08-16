@@ -31,7 +31,7 @@
 - Criar mais duas seções no layout criado
 durante o módulo, exemplos: entretenimento e tecnologia, as novas seções devem conter outras notícias e diferentes cores.
 -  Envie os arquivos para o Github em uma
-branch chamada exercício_css e nos envie
+branch chamada exercício_css e nos envie.
 
 <a href="https://github.com/vivianezzt/FullStack_java/tree/exercicio_css/exercicio_css">Exercicio CSS finalizado</a>
 
@@ -43,6 +43,10 @@ branch chamada exercício_css e nos envie
 meu time de futebol, meu game favorito.
 - Utilize os elementos de imagens, formulários, títulos e fontes customizadas.
 - O site deverá ser hospedado na Vercel e o link deverá nos ser encaminhado pela plataforma.
+
+<img src="https://raw.githubusercontent.com/vivianezzt/FullStack_java/Projeto_1/Projeto%201/img/tom_school.png">
+
+<a href="https://github.com/vivianezzt/FullStack_java/tree/Projeto_1">Projeto 01</a>
 
 <a href="https://modulo-5-projeto-1-ebac.vercel.app/">Site Tom's Class</a>
 
