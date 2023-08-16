@@ -1,0 +1,8 @@
+# Exercicio Git - EBAC
+
+A entrega desse exercício consiste em:
+
+<img src="https://github.com/vivianezzt/Curso_DevFullStack_Java_EBAC/blob/main/exercicio_git.png">
+
+<h3> CRÉDITOS &copy;</h3>
+<h4> Este desafio foi proposto pela Escola de Programação: <a href="https://ebaconline.com.br/full-stack-java">EBAC</a>
