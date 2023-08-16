@@ -16,4 +16,5 @@ formulario.addEventListener('submit', function(e) {
     mensagem.textContent = 'Formulário inválido: Número B deve ser maior que o número A.';
     mensagem.style.color = 'red';
   }
+  //Exercício elaborado com as informações pesquisadas em https://www.w3schools.com/js/
 });
