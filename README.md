@@ -69,7 +69,7 @@ destes fatores.
 
 <a href="https://github.com/vivianezzt/FullStack_java/tree/exercicio_html_js/integrando_html_js">Exercicio Finalizado</a>
 
-## O projeto foiconstruido com as tecnologias:
+## O projeto foi construido com as tecnologias:
 
 <div style="display: inline_block">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
