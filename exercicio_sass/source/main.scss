@@ -1,0 +1,102 @@
+@use 'config/reset.scss';
+@use 'config/variaveis.scss';
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: variaveis.$corPrincipal;
+    padding: 16px 0;
+
+    .branding img{
+        max-width: 80px;
+    }
+    .menu {
+        display: flex;
+    }
+    
+    .menu li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+    
+    .menu li a {
+        color: variaveis.$corDeTexto;
+        text-decoration: none;
+    }
+}
+
+body{
+    background-color: variaveis.$corDeFundo;
+
+    li {
+        list-style: none;
+    }
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+section {
+    padding: 56px 0;
+
+    .products {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 32.66%);
+        column-gap: 1%;
+        row-gap: 4%;
+        width: 100%;
+    }
+    .container h2{
+        color: variaveis.$corSecundaria;
+    }
+
+    ul li h4{
+        color: variaveis.$corSecundaria;
+    }
+    .product-item img {
+        width: 100%;
+        border-radius: 16px;
+    }
+    
+    .product-button {
+        display: block;
+        background-color: variaveis.$corButtons;
+        color: variaveis.$corDeTexto;
+        text-align: center;
+        padding: 8px 0;
+        border-radius: 8px;
+        margin-top: 8px;
+        text-decoration: none;
+    }
+    
+    .product-button:hover {
+        background-color: variaveis.$corSecundaria;
+    }
+}
+
+
+@media screen and (max-width: variaveis.$tablet) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}

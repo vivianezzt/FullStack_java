@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans serif;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9575CD;
+  padding: 16px 0;
+}
+header .container .branding img {
+  max-width: 80px;
+}
+header .container .menu {
+  display: flex;
+}
+header .container .menu li {
+  font-weight: bold;
+  margin-left: 24px;
+}
+header .container .menu li a {
+  color: #E0E0E0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #C5CAE9;
+}
+body li {
+  list-style: none;
+}
+body .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 56px 0;
+}
+section .products {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 32.66%);
+  column-gap: 1%;
+  row-gap: 4%;
+  width: 100%;
+}
+section .container h2 {
+  color: #9575CD;
+}
+section ul li h4 {
+  color: #9575CD;
+}
+section .product-item img {
+  width: 100%;
+  border-radius: 16px;
+}
+section .product-button {
+  display: block;
+  background-color: #1dd1a1;
+  color: #E0E0E0;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+section .product-button:hover {
+  background-color: #9575CD;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+  .products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .products {
+    display: block;
+  }
+  .product-item {
+    margin-bottom: 32px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
