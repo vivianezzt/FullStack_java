@@ -1,11 +1,9 @@
 # Exercicio SASS 
 Neste exercício você deve:
-1) Criar um arquivo Gulpfile que deverá executar as tarefas:
-compilação do SASS;
-2) compressão de imagens disponibilizadas no Material de apoio;
-compressão de código JavaScript.
-3) Criar um branch chamada exercicio_gulp.
-4) Armazenar o arquivo Gulpfile nesta branch.
-5) Enviar o link do repositório através da plataforma.
+1) Converter o CSS do projeto disponibilizado na área "Material de apoio" para o SASS;
+2) Utilizar as variáveis do SASS;
+3 Utilizar os módulos do SASS;
+4) Criar uma branch chamada exercicio_sass no repositório do curso;
+5) Armazenar os arquivos SASS nesta branch e enviar o link do repositório através da plataforma.
 
 Escola de programação <a href="https://ebaconline.com.br/cursos">EBAC</a>
