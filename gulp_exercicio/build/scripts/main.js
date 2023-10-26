@@ -1,0 +1,1 @@
+var ಠ_ಠ659,ಠ_ಠ660,ಠ_ಠ661,ಠ_ಠ662,ಠ_ಠ660=prompt("ಠ_ಠ664 ಠ_ಠ665 ಠ_ಠ666 nota: ");ಠ_ಠ660=eval(ಠ_ಠ660),ಠ_ಠ661=prompt("ಠ_ಠ664 ಠ_ಠ665 segunda nota: "),ಠ_ಠ661=eval(ಠ_ಠ661),ಠ_ಠ662=prompt("ಠ_ಠ664 ಠ_ಠ665 terceira nota: "),ಠ_ಠ662=eval(ಠ_ಠ662),ಠ_ಠ659=(ಠ_ಠ660+ಠ_ಠ661+ಠ_ಠ662)/3,6<=ಠ_ಠ659?document.write("Aprovado"):ಠ_ಠ659<5?document.write("Reprovado"):document.write("Recuperação");
