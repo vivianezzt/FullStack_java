@@ -3,51 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="./main.css">
-    <title>Exercicio JQuery</title>
+    <link rel="stylesheet" href="build/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <title>Viviane Silva</title>
 </head>
 <body>
-    <section id="contato">
-        <div class="container">
-            <h2>Entre em contato</h2>
-            <form action="#">
-                <div class="form-campo">
-                    <label for="nome">Nome completo:</label>
-                    <input type="text" id="nome" name="nome">
-                </div>
-                <div class="form-campo">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="form-campo">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="campo-telefone" name="telefone">
-                </div>
-                <div class="form-campo">
-                    <label for="cpf">CPF:</label>
-                    <input type="text" id="cpf" name="cpf">
-                </div>
-                <div class="form-campo">
-                    <label for="enderecoCompleto">Endereço completo:</label>
-                    <input type="text" id="enderecoCompleto" name="enderecoCompleto" >
-                </div>
-                <div class="form-campo">
-                    <label for="cep">CEP:</label>
-                    <input type="text" id="cep" name="cep" >
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/jquery.mask.min.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
-    <script src="./js/messages_pt_BR.min.js"></script>
-    <script src="./js/script.js"></script>
-
+    <div class="container">
+        <header>
+            <img class="profile-avatar" src="src/images/viviane (2).jpg" alt="Imagem">
+            <div class="profile-bio">
+                <h1 class="profile-bio-name">Viviane Silva</h1>
+                <h2 class="profile-bio-subtitle">Desenvolvimento Full Stack Java</h2>
+                <p class="profile-bio-description">Domínio de layouts de Front-end, frameworks JavaScript e CSS Linguagem SQL
+                    Microsserviços com inicialização Java, Maven, Gradle e Spring Big Data e Sintaxe Java e tecnologias em 
+                    apps funcionais. Criação de bancos de dados com apps Java integração Front e Back-end desenvolvimento e testes de sites com APIs. Abordagem DevOps com integração e metodologias de entrega contínua consultas SQL com índices de banco de dados.</p>
+            </div>
+            
+           </header>
+                <nav>
+                    <ul class="social-links">
+                    <li><a href="https://www.instagram.com/vivianezzt/"><img src="src/images/instagram.svg" alt="Logo do instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/vivianezzt/"><img src="src/images/linkedin.svg" alt="logo do linkedin"></a></li>
+                    <li><a href="https://github.com/vivianezzt"><img src="src/images/github.svg" alt="logo do github"></a></li>
+                    <li><a href="https://t.me/vivianezzt"><img src="src/images/mail.svg" alt="logo do email"></a></li>
+                    </ul>
+                  </nav>
+            <nav>
+                <ul class="project-list">
+                    <li class="project-list-item"><a href="https://modulo-5-projeto-1-ebac.vercel.app/">Projeto TOM'S School</a></li>
+                    <li class="project-list-item"><a href="https://viviane-projeto-ebac-store.vercel.app/">EBAC Store</a></li>
+                    <li class="project-list-item"><a href="https://viviane-restaurante-ebac.vercel.app/">EBAC Restaurante</a></li>
+                    <li class="project-list-item"><a href="https://viviane-lading-page-code-cafe.vercel.app/">Café Code</a></li>
+                    <li class="project-list-item"><a href="https://viviane-store-website-design.vercel.app/">Groco Website</a></li>
+                </ul>
+            </nav>
+    </div>
 </body>
 </html>
